@@ -1,0 +1,68 @@
+body *{
+    /* background-color: black; */
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+/* nav{
+    background-color: none;
+
+} */
+.pruebas-de-contenedor{
+    border: 0px solid red;
+
+}
+.altura_hero{
+    max-height:800px;
+    overflow: hidden;
+}
+.altura_hero img{
+    display: block;
+    margin: auto; 
+    transform: translateY(-30px)
+}
+.altura-divisor{
+    height:2px;
+    
+}
+.bg-card-color{
+    background-color: black;
+
+}
+.altura_fix{
+    max-height:202px;
+    overflow: hidden;   
+}
+.altura_pie{
+    min-height:3rem;
+    font-size:28px;
+    margin-top:-7px;
+}
+#mensaje_wild {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color:blueviolet;
+	color: white;
+	text-align: center;
+	padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+#mensaje_wild p {
+	font-size: 3em;
+    font-family:monospace;
+    font-weight: bolder;
+    font-family: 'Press Start 2P', cursive;
+}
+#cerrar_wild{
+    display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+    font-size:40px;
+    font-family: 'Press Start 2P', cursive;
+}

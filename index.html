@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion Viajes Chile</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/img/viajes.svg">
+
+<!-- precarga imagenes evitar se vea blanco -->
+
+<style>
+    .preload-1 {
+    background-image: url("assets/img/carousel1.jpg");
+}
+
+.preload-2 {
+    background-image: url("assets/img/carousel2.jpg");
+}
+
+.preload-3 {
+    background-image: url("assets/img/carousel3.jpg");
+}
+
+#preloader {
+    display: none;
+  }
+
+ 
+</style>
+
+<!-- precarga imagenes evitar se vea blanco -->
+
+</head>
+<body>
+
+<!-- precarga -->
+    <div id="preloader">
+        <div class="preload-1"></div>
+        <div class="preload-2"></div>
+        <div class="preload-2"></div>
+      </div>
+<!-- precarga -->
+
+
+ <section id="inicio" class="pruebas-de-contenedor pb-0">
+    <nav class="navbar navbar-expand-lg fixed-top bg-transparent navbar-dark">
+        <div class="container mx-auto">
+            <div class="me-auto pt-2 col-5"><img class="pb-2" src="assets/img/viajes.svg" alt="logo" width="38px"><a class="navbar-brand px-2 py-3 fw-bold" href="#">Viajes Chile</a></div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto opacity-75">
+                <li class="nav-item me-auto">
+                <a class="nav-link mx-2 text-white" aria-current="page" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#qSomos">Quienes Somos</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#destacados">Destacados</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link text-white"  href="#contacto">Contacto</a>
+                </li>
+            </ul>
+
+            </div>
+        </div>
+
+    </nav> 
+
+    <div id="carouselExample" class="carousel slide carousel-fade bg-card-color" data-bs-ride="carousel" >
+        <div class="carousel-inner altura_hero">
+          <div class="carousel-item active " data-bs-interval="10000">
+            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+   </div>
+ </section>
+
+
+ <!-- quienes somos -->
+
+ <section id="qSomos" class="container-fluid pt-5 bg-card-color d-none d-sm-block">
+
+    <div class="container">
+   
+        <div class="px-4 my-3">
+            <h2 class="text-center fw-bold"><a href="#" class="text-decoration-none text-white">¿QUIENES SOMOS?</a></h2>
+        </div>
+
+        <div class="altura-divisor bg-dark mx-5"></div>
+        
+        <div class="row mt-4 d-flex flex-wrap justify-content-center  text-center">
+    
+            <div class="col-md-4  mx-auto my-3" >
+                <div class="card rounded-0 border-0 " >
+                    <div class="bg-info"><i class="fa-solid fa-plane text-white fs-2"></i></div>
+                    <div class="card-body p-0">
+                      <p class="card-text p-0 text-white bg-card-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil minus quod, ut sed reprehenderit ex facere, consectetur aliquid facilis nam nisi expedita dolorum corporis reiciendis magni nulla ab possimus! Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil minus quod, ut sed reprehenderit ex facere, consectetur aliquid facilis nam nisi expedita dolorum corporis reiciendis magni nulla ab possimus! Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            <div class="col-md-4  mx-auto my-3" >
+                <div class="card rounded-0 bg-card-color border-0" >
+                    <div class="card-body p-0">
+                      <p class="card-text p-0 text-white bg-card-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum, sunt quae blanditiis deleniti quis eius vitae. Aperiam, adipisci! Nesciunt exercitationem ducimus similique doloremque maiores rem ex veniam unde illo. Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil minus quod, ut sed reprehenderit ex facere, consectetur aliquid facilis nam nisi expedita dolorum corporis reiciendis magni nulla ab possimus! Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                    <div class="bg-info"><i class="fa-solid fa-mountain text-white fs-2"></i></div>
+                  </div></div>
+            <div class="col-md-4  mx-auto my-3">
+                <div class="card rounded-0 border-0">
+                    <div class="bg-info"><i class="fa-solid fa-route text-white fs-2"></i></div>
+                    <div class="card-body p-0">
+                      <p class="card-text p-0 text-white bg-card-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil minus quod, ut sed reprehenderit ex facere, consectetur aliquid facilis nam nisi expedita dolorum corporis reiciendis magni nulla ab possimus! Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita vel veritatis neque quis et harum iste qui ratione velit odit impedit, sed minima ipsam dignissimos esse mollitia nesciunt quae. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div></div>
+    
+        </div>
+    </div>
+
+ </section>
+
+ <!-- inicio destacados -->
+
+ <section id="destacados" class="container-fluid pt-4 bg-card-color">
+
+  <div class="px-4 my-3 ">
+    <h2 class="text-center fw-bold"><a href="#" class="text-decoration-none text-white">DESTACADOS</a></h2>
+  </div>
+
+  <div class="altura-divisor bg-dark mx-5"></div>
+
+  <div class="container ">
+
+        <!-- cards destacados -->
+
+        <div class="row mt-4  d-flex flex-wrap justify-content-center text-center" >
+
+          <div class="col-12 col-md-6 my-2 col-lg-5 col-xl-3">
+
+            <div class="card h-85 mx-auto bg-info border border-white" style="width: 19rem;">
+              <div class="img-alt-fix h-50 "><img height="87%" src="assets/img/card1.jpg" class="card-img-top w-100" alt="..."> </div>
+              <div class="card-body text-white p-0">
+                <h5 class="card-title fw-bold">Lorem ipsum dolor</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore, quam pariatur nisi ipsa omnis necessitatibus voluptatum.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-md-6 my-2 col-lg-5 col-xl-3">
+
+            <div class="card h-85 mx-auto bg-info border border-white" style="width: 19rem;">
+              <div class="altura_fix h-50" style="overflow-y: hidden;"><img height="87%" src="assets/img/card2.jpg" class="card-img-top w-100" alt="..."></div>
+              <div class="card-body text-white p-0">
+                <h5 class="card-title fw-bold">Lorem ipsum dolor</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore, quam pariatur nisi ipsa omnis necessitatibus voluptatum.</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="col-12 col-md-6 my-2 col-lg-5 col-xl-3">
+
+            <div class="card h-85 mx-auto bg-info border border-white" style="width: 19rem;">
+              <div class="img-alt-fix h-50 "><img height="87%" src="assets/img/card3.jpg" class="card-img-top w-100" alt="..."></div>
+              <div class="card-body text-white p-0">
+                <h5 class="card-title fw-bold">Lorem ipsum dolor</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore, quam pariatur nisi ipsa omnis necessitatibus voluptatum.</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="col-12 col-md-6 my-2 col-lg-5 col-xl-3">
+
+            <div class="card h-85 mx-auto bg-info border border-white" style="width: 19rem;">
+              <div class="img-alt-fix h-50 "><img height="87%" src="assets/img/card4.jpg" class="card-img-top w-100" alt="..."></div>
+              <div class="card-body text-white p-0">
+                <h5 class="card-title fw-bold">Lorem ipsum dolor</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore, quam pariatur nisi ipsa omnis necessitatibus voluptatum.</p>
+              </div>
+            </div>
+          
+          </div>
+        </div>            
+ </div>
+
+ </section>
+
+<!-- inicio contacto -->
+
+ <section id="contacto" class="container-fluid pt-4 pb-5 bg-card-color ">
+  
+  <div class="px-4 my-3 ">
+    <h2 class="text-center fw-bold"><a href="#" class="text-decoration-none text-white">CONTACTO</a></h2>
+  </div>
+
+  <div class="altura-divisor bg-dark mx-5"></div>
+
+  <div class="container mt-3">
+
+    <div class="text-md-start text-white ">
+      <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-4">
+            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-4">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>    
+        <button type="button" id="sendIt" class="btn bg-info text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Atencion!" data-bs-target="#exampleModal" >Enviar</button>
+        <div id="mensaje_wild"><p>Atention! Wild llama appeared </p></div>
+        <div id="cerrar_wild"><a class="text-decoration-none text-white" href="#">> Run!</a></div>          
+    </div>
+
+  </div>
+
+ </section>
+
+ <footer class="bg-info">
+
+  <div class="container pt-3">
+      <div class="row px-5">
+    
+        <div class="col-12 col-sm-6 d-flex align-items-center pt-3 ps-4">
+            <p class="text-white altura_pie ps-5 text-center ">VIAJES CHILE</p>
+        </div>
+        <div class="col-12 col-sm-6  col-xs-12 d-flex align-items-center pt-1 pe-5 pb-2">
+
+          <div class="ms-auto me-5">
+              <a href="#">
+                <i class="fa-brands fa-github-square fa-2x mx-2 text-white mb-2"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin fa-2x mx-2 text-white mb-2"></i>
+            </a>
+            <div class="d-none col-xs-5"></div>
+            <a href="#">
+                <i class="fa-brands fa-twitter-square fa-2x mx-2 text-white"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook-square fa-2x mx-2 text-white"></i>
+            </a>
+          </div>
+
+    
+
+
+            
+        </div>
+    
+      </div>
+  </div>
+
+
+ </footer>
+
+
+
+       <script type="text/javascript" src="assets/js/funciones.js" ></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+       <script src="https://kit.fontawesome.com/f8924afd89.js" crossorigin="anonymous"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/j
+       query.min.js"></script>
+      </body>
+</html>
