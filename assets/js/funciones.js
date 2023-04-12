@@ -14,6 +14,6 @@ run.addEventListener("click", function() {
     run.style.display = "none";
   });
 
-  inicio.addEventListener("click", function() {
-    alert('Es momento de buscar un chuyo');
-  });
+  // inicio.addEventListener("click", function() {
+  //   alert('Es momento de buscar un chuyo');
+  // });
